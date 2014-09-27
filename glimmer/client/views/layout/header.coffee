@@ -1,4 +1,4 @@
-Template.home.helpers
+Template.header.helpers
   activeRouteClass: () ->
     args = Array.prototype.slice.call arguments, 0
 

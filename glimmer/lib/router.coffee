@@ -11,11 +11,17 @@ Router.map () ->
     path: '/yes-no'
 
   @route 'feeling',
-    path: '/ask-about-feeling'
+    path: '/feeling'
 
   @route 'action',
-    path: '/suggest-action'
+    path: '/action'
 
   @route 'entertainment',
-    path: '/suggest-entertainment'
+    path: '/entertainment'
+
+  @route 'about',
+    path: '/about'
+
+  @route 'contact',
+    path: '/contact'
 

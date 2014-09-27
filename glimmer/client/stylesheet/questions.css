@@ -2,6 +2,12 @@
   font-size: 50px;
 }
 
+.question-field {
+  text-align: center;
+  font-size: 50px;
+  height: 73px;
+}
+
 .sub-2-left {
   margin: 0;
   width: 50%;
