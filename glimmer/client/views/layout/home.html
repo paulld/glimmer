@@ -2,10 +2,9 @@
 
   <div class="container">
     <div class="masthead">
-      <h3 class="text-muted">GLIMMER of hope</h3>
+      <h3 class="text-muted">GLIMMER <span class="subtitle">of hope</span></h3>
       <ul class="nav nav-justified">
-        <li class="active"><a href="{{pathFor 'home'}}">Home</a></li>
-        <!-- <li><a href="{{pathFor 'home'}}">Home</a></li> -->
+        <li class="{{activeRouteClass 'home'}}"><a href="{{pathFor 'home'}}">Home</a></li>
         <li><a href="#">Make a call</a></li>
         <li><a href="#">Add questions</a></li>
         <li><a href="#">About</a></li>
@@ -15,17 +14,17 @@
 
     <div class="jumbotron">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offest-1 col-xs-12">
-          <h1 class="h1-home">What question would you like to ask?</h1>
+        <!-- <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offest-1 col-xs-12"> -->
+          <h1 class="h1-home">What question would <br />you like to ask?</h1>
           <p>
-            <a class="btn btn-lg btn-success btn-question-type" href="#" role="button">Yes / No question</a>
-            <a class="btn btn-lg btn-success btn-question-type" href="#" role="button">Yes / No question</a>
+            <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'yesno'}}" role="button">Yes / No Question</a>
+            <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'feeling'}}" role="button">Ask about a Feeling</a>
           </p>
           <p>
-            <a class="btn btn-lg btn-success btn-question-type" href="#" role="button">Yes / No question</a>
-            <a class="btn btn-lg btn-success btn-question-type" href="#" role="button">Yes / No question</a>
+            <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'action'}}" role="button">Suggest an Action</a>
+            <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'entertainment'}}" role="button">Suggest and Entertainment</a>
           </p>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
 

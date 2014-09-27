@@ -1,0 +1,45 @@
+.back-arrow > i {
+  font-size: 50px;
+}
+
+.sub-2-left {
+  margin: 0;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+.sub-2-right {
+  margin: 0;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.sub-2-button {
+  font-size: 50px;
+  width: 80%;
+  height: 80%;
+}
+
+.sub-4-left {
+  margin: 0;
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+.sub-4-right {
+  margin: 0;
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.sub-4-button {
+  font-size: 50px;
+  width: 80%;
+  height: 80%;
+}
