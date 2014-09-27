@@ -1,0 +1,50 @@
+ <template name="questionsList"> 
+
+  <div class="container">
+    
+    {{> header}}
+
+    <div class="jumbotron">
+      <div class="row">
+        <h1 class="h1">List of Existing Questions</h1>
+        <table class="table questions-list">
+          <thead>
+            <tr>
+              <th>Question</th>
+              <th class="questions-list-answer-title">Answer 1</th>
+              <th class="questions-list-answer-title">Answer 2</th>
+              <th class="questions-list-answer-title">Answer 3</th>
+              <th class="questions-list-answer-title">Answer 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each questions}}
+              <tr class="listed-message">
+                <td class="questions-list-content">
+                  {{content}}
+                </td>
+                <td>
+                  {{answer1}}
+                </td>
+                <td>
+                  {{answer2}}
+                </td>
+                <td>
+                  {{answer3}}
+                </td>
+                <td>
+                  {{answer4}}
+                </td>
+              </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {{> footer}}
+    
+  </div>
+
+</template>
+

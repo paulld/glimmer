@@ -4,8 +4,8 @@
     <h3 class="text-muted">GLIMMER <span class="subtitle">of hope</span></h3>
     <ul class="nav nav-justified">
       <li class="{{activeRouteClass 'home'}}"><a href="{{pathFor 'home'}}">Home</a></li>
-      <li><a href="#">List of questions</a></li>
-      <li><a href="#">Add a question</a></li>
+      <li class="{{activeRouteClass 'questionsList'}}"><a href="{{pathFor 'questionsList'}}">List of questions</a></li>
+      <li class="{{activeRouteClass 'addQuestion'}}"><a href="{{pathFor 'addQuestion'}}">Add a Question</a></li>
       <li class="{{activeRouteClass 'about'}}"><a href="{{pathFor 'about'}}">About</a></li>
       <li class="{{activeRouteClass 'contact'}}"><a href="{{pathFor 'contact'}}">Contact</a></li>
     </ul>

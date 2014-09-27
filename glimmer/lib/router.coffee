@@ -25,3 +25,12 @@ Router.map () ->
   @route 'contact',
     path: '/contact'
 
+  @route 'questionsList',
+    path: '/questions-list'
+    # waitOn: ->
+    #   [
+    #     Meteor.subscribe 'questions'
+    #   ]
+
+  @route 'addQuestion',
+    path: '/question-add'
