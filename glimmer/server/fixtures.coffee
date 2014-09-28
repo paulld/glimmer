@@ -25,3 +25,12 @@ if Questions.find().count() is 0
     answer4: "Snow Queen"
     createdAt: now - 4400 * 1000
     
+
+if Binaries.find().count() is 0
+
+  now = new Date().getTime()
+
+  Binaries.insert
+    _id: "Qvs4QQxJEzYaBINA1"
+    content: "Are you thirsty?"
+    createdAt: now - 4800 * 1000
