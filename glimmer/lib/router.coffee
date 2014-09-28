@@ -34,3 +34,6 @@ Router.map () ->
 
   @route 'addQuestion',
     path: '/question-add'
+
+  @route 'sensor',
+    path: '/sensor'
