@@ -1,0 +1,52 @@
+/*body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}*/
+  
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+div#badge {
+    width: 141px;
+    height: 141px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#boxBL,#boxBR,#boxTL,#boxTR{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    position: fixed;
+  
+    border: 5px solid black
+}
+ #boxBL{
+   
+    bottom: 0;
+    left: 0;
+   
+}
+ #boxBR{
+  
+  bottom: 0;
+    right: 0;
+   
+}
+ #boxTL{
+    
+    top: 0;
+    left: 0;
+   
+}
+ #boxTR{
+    
+    top: 0;
+    right: 0;
+   
+}
+.boxChange{
+    background-color: green;
+}
