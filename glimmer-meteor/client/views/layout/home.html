@@ -1,0 +1,26 @@
+<template name="home">
+
+  <div class="jumbotron">
+    {{> header}}
+
+    <div class="home-create-question">
+      <!-- <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offest-1 col-xs-12"> -->
+        <h1 class="h1-home">What question would <br />you like to ask?</h1>
+
+    </div>
+    <div class="home-exising-questions">
+        <p>
+          <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'yesno'}}" role="button">Yes / No Question</a>
+          <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'feeling'}}" role="button">Ask about a Feeling</a>
+        </p>
+        <p>
+          <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'action'}}" role="button">Suggest an Action</a>
+          <a class="btn btn-lg btn-success btn-question-type" href="{{pathFor 'entertainment'}}" role="button">Suggest and Entertainment</a>
+        </p>
+      <!-- </div> -->
+    </div>
+  
+  {{> footer}}
+  </div>
+
+</template>
