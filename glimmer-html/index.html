@@ -41,15 +41,15 @@
           <span class="icon-bar"></span>
         </button>
         <!-- <a class="navbar-brand" href="#">GLIMMER <span class="subtitle-hope">(of hope)</a> -->
-        <a class="navbar-brand" href=""><img class="logo" src="logo.png"><span class="title-glimmer">Glimmer</a>
+        <a class="navbar-brand" href=""><img class="logo" src="img/logo.png"><span class="title-glimmer">Glimmer</a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
             <li class="active"><a href="">Home</a></li>
-          <li><a href="question.php">2-option Question</a></li>
-          <li><a href="sensor4">4-option Question</a></li> 
-          <li><a href="about">About</a></li> 
-          <li><a href="contact">Contact</a></li>
+          <li><a href="question2.php">2-option Question</a></li>
+          <li><a href="question4.html">4-option Question</a></li> 
+          <li><a href="about.html">About</a></li> 
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       </div>  
@@ -63,7 +63,7 @@
             <div class="text-center col-sm-12 col-lg-12">
              <h1 class="home-tagline">Welcome to Glimmer - your eyes speaking to the world</h1>
              <hr>
-            <form action="question.php" method="GET">
+            <form action="question2.php" method="GET">
             <div>
               <input class="home-question" name="question" placeholder="Type a Question"></input>
             </div>
@@ -90,7 +90,7 @@
 jQuery(document).ready(function() {
   jQuery('.question').each(function(){
 
-    $(this).attr('href', "question.php?question="+$(this).text());
+    $(this).attr('href', "question2.php?question="+$(this).text());
   });
 });
 </script>
@@ -105,45 +105,45 @@ jQuery(document).ready(function() {
   </div>  
   <div class="row">
      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <p><a class="btn btn-default question" href="question.php?question=">Do you feel comfortable?</a></p>
+        <p><a class="btn btn-default question" href="question2.php?question=">Do you feel comfortable?</a></p>
         <p>Yes | No</p>
       </div>
      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <p><a class="btn btn-default question" href="question.php?question=">Are you hungry?</a></p>
+        <p><a class="btn btn-default question" href="question2.php?question=">Are you hungry?</a></p>
         <p>Yes | No</p>
      </div>
      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <p><a class="btn btn-default question" href="question.php?question=">Are you thirsty?</a></p>
+        <p><a class="btn btn-default question" href="question2.php?question=">Are you thirsty?</a></p>
         <p>Yes | No</p>
       </div>
   </div>
   <hr>
 <!--   <div class="row">
        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <p><a class="btn btn-default" href="sensor4">Do you feel comfortable?</a></p>
+          <p><a class="btn btn-default" href="question4.html">Do you feel comfortable?</a></p>
           <p>Yes! | No, I'm thirsty | No, I'm hungry | No, I'm tired</p>
         </div>
        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <p><a class="btn btn-default" href="sensor4">Do you feel comfortable?</a></p>
+          <p><a class="btn btn-default" href="question4.html">Do you feel comfortable?</a></p>
           <p>Yes! | No, I'm thirsty | No, I'm hungry | No, I'm tired</p>
        </div>
        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <p><a class="btn btn-default" href="sensor4">Do you feel comfortable?</a></p>
+          <p><a class="btn btn-default" href="question4.html">Do you feel comfortable?</a></p>
           <p>Yes! | No, I'm thirsty | No, I'm hungry | No, I'm tired</p>
         </div>
   </div>
   <hr> -->
   <div class="row">
        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <p><a class="btn btn-default" href="sensor4">What type of music do you want to listen to?</a></p>
+          <p><a class="btn btn-default" href="question4.html">What type of music do you want to listen to?</a></p>
           <p>I. Pop | Classical | Rock | Jazz</p>
         </div>
        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <p><a class="btn btn-default" href="sensor4">Which movie do you want to see?</a></p>
+          <p><a class="btn btn-default" href="question4.html">Which movie do you want to see?</a></p>
           <p>Harry Potter | Toys | Transformer | The Lord of the rings</p>
        </div>
        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <p><a class="btn btn-default" href="sensor4">What kind of book do you like me to read?</a></p>
+          <p><a class="btn btn-default" href="question4.html">What kind of book do you like me to read?</a></p>
           <p>Fantasy | Comics | History | Drama</p>
         </div>
   </div>
